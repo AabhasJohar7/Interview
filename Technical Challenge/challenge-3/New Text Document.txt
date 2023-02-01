@@ -1,0 +1,10 @@
+people = {1: {'name': 'John', 'age': '27', 'sex': 'Male'},
+          2: {'name': 'Marie', 'age': '22', 'sex': 'Female'}}
+
+choice = input(print("Enter a choice "))
+if (choice=="1"):
+    print(people[1].values())
+elif (choice=="2"):
+    print(people[2].values())
+else :
+    print ("Invalid Input")
